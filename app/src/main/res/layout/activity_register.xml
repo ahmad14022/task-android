@@ -11,54 +11,116 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Yuk, Daftarkan Dirimu !"
-        android:layout_gravity="center"
-        android:textStyle="bold"
-        android:textSize="30sp"
-        android:layout_marginBottom="16dp"/>
+        android:hint="Fullname 🧑🏻‍🦱"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/fullNameEditText"
         android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/input_shape"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="12dp"
+        android:hint="Ahmad Mushawwir"
+        android:textColorHint="@color/textColor"
+        android:textSize="14dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Nama Lengkap"/>
+        android:hint="Email 📩"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/emailEditText"
         android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/input_shape"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="12dp"
+        android:hint="mushawwirahmad45@gmail.com"
+        android:textColorHint="@color/textColor"
+        android:textSize="14dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Email"/>
+        android:hint="Username 👤"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/usernameEditText"
         android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/input_shape"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="12dp"
+        android:hint="ahmad14022"
+        android:textColorHint="@color/textColor"
+        android:textSize="14dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Username"/>
+        android:hint="Password 🔐"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/passwordEditText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Password"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/input_shape"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="12dp"
+        android:hint="Your Password"
+        android:textColorHint="@color/textColor"
+        android:textSize="14dp"
         android:inputType="textPassword"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password Confirmation 🔐"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/confirmPasswordEditText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Konfirmasi Password"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/input_shape"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="12dp"
+        android:hint="Confirm your password"
+        android:textColorHint="@color/textColor"
+        android:textSize="14dp"
         android:inputType="textPassword"/>
 
     <Button
         android:id="@+id/registerButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
         android:text="Daftar Sekarang"/>
 
     <Button
         android:id="@+id/loginButtonFromRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
         android:text="ke Menu Login" />
 
 
