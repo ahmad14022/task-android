@@ -1,5 +1,3 @@
-# Raihan Ferdyanza - Unila - Software Engineer
-
 Aplikasi sederhana untuk registrasi dan login menggunakan lokal autentikasi, ketika user berhasil login, maka akan menampilkan data api.
 
 ## Persyaratan
