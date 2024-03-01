@@ -36,19 +36,17 @@ class LoginActivity : AppCompatActivity() {
         val usernameEditText: EditText = findViewById(R.id.usernameEditText)
         val passwordEditText: EditText = findViewById(R.id.passwordEditText)
 
-        val authManager = AuthManager(this) // Pastikan Anda telah membuat AuthManager dengan benar
+        val authManager = AuthManager(this)
 
         loginButton.setOnClickListener {
             val username = usernameEditText.text.toString()
             val password = passwordEditText.text.toString()
 
             if (authManager.authenticate(username, password)) {
-                // Login success
                 Toast.makeText(this, "Login berhasil", Toast.LENGTH_SHORT).show()
 
                 fetchDataFromApi()
             } else {
-                // Login failed
                 Toast.makeText(this, "Login gagal", Toast.LENGTH_SHORT).show()
             }
         }

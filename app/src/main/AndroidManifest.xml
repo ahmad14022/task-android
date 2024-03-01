@@ -31,14 +31,14 @@
         <!-- LoginActivity -->
         <activity
             android:name=".LoginActivity"
-            android:label="Login"
+            android:label="Fake App"
             android:theme="@style/AppTheme.Login"
             android:exported="true" />
 
         <!-- RegisterActivity -->
         <activity
             android:name=".RegisterActivity"
-            android:label="Register"
+            android:label="Fake App"
             android:theme="@style/AppTheme.Login"
             android:exported="true" />
 

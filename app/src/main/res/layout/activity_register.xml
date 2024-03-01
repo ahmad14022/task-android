@@ -11,6 +11,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:text="Register"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:hint="Fullname 🧑🏻‍🦱"
         android:textStyle="bold" />
 
@@ -111,8 +119,8 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button_shape"
         android:textColor="@color/white"
-        android:layout_marginBottom="10dp"
-        android:text="Daftar Sekarang"/>
+        android:layout_marginBottom="15dp"
+        android:text="Register Now"/>
 
     <Button
         android:id="@+id/loginButtonFromRegister"
@@ -121,7 +129,5 @@
         android:background="@drawable/button_shape"
         android:textColor="@color/white"
         android:layout_marginBottom="10dp"
-        android:text="ke Menu Login" />
-
-
+        android:text="Back to Login" />
 </LinearLayout>
