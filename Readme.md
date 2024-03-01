@@ -1,8 +1,8 @@
 
-## QUIZ 🤳🏻
+## QUIZ PEMBEKALAN ANDROID 🤳🏻
 
 1. **Layout Gambar ✨**
-   - Pilih salah satu gambar dari [link ini](bit.ly/quiz2Android) dan buatlah layout sederhana menggunakan XML.
+   - Pilih salah satu gambar dari [link ini](bit.ly/quiz2Android), kemudian buatlah layout sederhana menggunakan XML.
 
 2. **Halaman Login 🚪**
    - Buat halaman Login menggunakan komponen berikut:
