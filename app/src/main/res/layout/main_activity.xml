@@ -12,27 +12,27 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Selamat Datang di Aplikasi Login/Regis Sederhana"
+        android:text="Selamat Datang di Fooders"
+        android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold"
         android:layout_marginBottom="20dp"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="by. Raihan Ferdyanza - Software - Stechoq"
-        android:textSize="15sp"
-        android:layout_marginBottom="16dp"/>
 
     <Button
         android:id="@+id/loginButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
         android:text="Login"/>
 
     <Button
         android:id="@+id/registerButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Register"/>
+        android:text="Register"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"/>
 
 </LinearLayout>
